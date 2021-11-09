@@ -20,12 +20,10 @@ module.exports = {
 },
   plugins: [
     new BrowserSyncPlugin({
-      proxy: "http://localhost:3000/",
-      https: "TRUE",
-      files: [
-        '**/*.css',
-        '**/*.html',
-      ],
+      host: "localhost",
+      port: "3000",
+      server: {baseDir: ["dist"] },
+      files: ['**/*.css','**/*.html',]
     }),
 ]
 };
