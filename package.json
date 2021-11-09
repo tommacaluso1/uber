@@ -21,6 +21,7 @@
   "homepage": "https://github.com/tommacaluso1/starterPack#readme",
   "dependencies": {
     "autoprefixer": "^10.4.0",
+    "browser-sync": "^2.27.7",
     "lodash": "^4.17.21",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
@@ -29,6 +30,7 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "babel-loader": "^8.2.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "webpack": "^5.62.2",
     "webpack-cli": "^4.9.1"
   }

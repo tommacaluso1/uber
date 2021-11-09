@@ -1,4 +1,6 @@
 const path = require('path');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
+
 
 module.exports = {
   entry: './src/js/index.js',
@@ -16,5 +18,14 @@ module.exports = {
         } 
      }]
 },
-
+  plugins: [
+    new BrowserSyncPlugin({
+      proxy: "http://localhost:3000/",
+      https: "TRUE",
+      files: [
+        '**/*.css',
+        '**/*.html',
+      ],
+    }),
+]
 };
