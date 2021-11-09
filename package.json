@@ -2,9 +2,11 @@
   "name": "starterpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "build-css":"tailwindcss build ./src/styles/main.scss -o ./src/styles/style.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/tommacaluso1/starterPack/issues"
   },
-  "homepage": "https://github.com/tommacaluso1/starterPack#readme"
+  "homepage": "https://github.com/tommacaluso1/starterPack#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "lodash": "^4.17.21",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.62.2",
+    "webpack-cli": "^4.9.1"
+  }
 }
