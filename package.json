@@ -4,9 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start": "npm i && npx webpack && npx webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "build-css":"tailwindcss build ./src/styles/main.scss -o ./src/styles/style.css"
+    "build-css": "tailwindcss build ./src/styles/main.scss -o ./src/styles/style.css"
   },
   "repository": {
     "type": "git",
