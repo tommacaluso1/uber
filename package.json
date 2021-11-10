@@ -26,6 +26,7 @@
     "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.4.4",
     "postcss-import": "^14.0.2",
+    "sass-loader": "^12.3.0",
     "tailwindcss": "^2.2.19"
   },
   "devDependencies": {

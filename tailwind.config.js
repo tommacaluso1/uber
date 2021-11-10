@@ -8,6 +8,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  options: {
+    prefix: '',
+    important: false,
+    separator: ':',
+  },
   purge: {
     enabled: true,
     content: [
