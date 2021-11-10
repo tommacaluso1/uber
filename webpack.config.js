@@ -1,5 +1,6 @@
 const path = require('path');
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
@@ -24,6 +25,9 @@ module.exports = {
       port: "3000",
       server: {baseDir: ["dist"] },
       files: ['**/*.css','**/*.html',]
+    }),
+    new HtmlWebpackPlugin({
+      template: "./index.html",
     }),
 ]
 };
