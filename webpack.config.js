@@ -1,7 +1,7 @@
 const path = require('path');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   entry: './src/js/index.js',
@@ -33,6 +33,9 @@ module.exports = {
       port: "3000",
       server: {baseDir: ["dist"] },
       files: ['**/*.css','**/*.html',]
+    }),
+    new MiniCssExtractPlugin({
+      filename: './src/styles/main.scss',
     }),
     new HtmlWebpackPlugin({
       template: "./index.html",
