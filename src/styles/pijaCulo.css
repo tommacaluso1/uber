@@ -1,0 +1,8 @@
+.pijaCulo {
+  @apply .flex .items-stretch .bg-green;
+}
+
+div {
+  @apply .flex .items-stretch .bg-green;
+}
+/*# sourceMappingURL=pijaCulo.css.map */

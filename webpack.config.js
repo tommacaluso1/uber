@@ -11,13 +11,21 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.js$/,
         exclude: /(node_modules)/,
         use: {
             loader: "babel-loader"
-        } 
-     }]
+        },
+         
+     },
+     {
+      test: /\.css$/i,
+      include: path.resolve(__dirname, 'src'),
+      use: ['style-loader', 'css-loader', 'postcss-loader'],
+    },
+    ]
 },
   plugins: [
     new BrowserSyncPlugin({

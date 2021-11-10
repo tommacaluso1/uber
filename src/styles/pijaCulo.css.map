@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACN,MAAM,CAAN,8BAAM;CACR;;AAED,AAAA,GAAG,CAAA;EACA,MAAM,CAAN,8BAAM;CACR",
+    "sources": [
+        "pijaCulo.scss"
+    ],
+    "names": [],
+    "file": "pijaCulo.css"
+}
