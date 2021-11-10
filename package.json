@@ -24,6 +24,7 @@
     "browser-sync": "^2.27.7",
     "html-webpack-plugin": "^5.5.0",
     "lodash": "^4.17.21",
+    "postcss-import": "^14.0.2",
     "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
