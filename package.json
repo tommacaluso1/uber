@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm i && npx webpack && npx webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "build-css": "tailwindcss build ./src/styles/main.scss -o ./src/styles/style.css"
   },
@@ -23,13 +24,16 @@
     "autoprefixer": "^10.4.0",
     "browser-sync": "^2.27.7",
     "html-webpack-plugin": "^5.5.0",
-    "lodash": "^4.17.21",
-    "mini-css-extract-plugin": "^2.4.4",
-    "postcss-import": "^14.0.2",
-    "sass-loader": "^12.3.0",
-    "tailwindcss": "^2.2.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "sass": "^1.43.4",
+    "mini-css-extract-plugin": "^2.4.4",
+    "postcss-import": "^14.0.2",
+    "run": "^1.4.0",
+    "sass-loader": "^12.3.0",
+    "start": "^5.1.0",
+    "tailwindcss": "^2.2.19",
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "babel-loader": "^8.2.3",
