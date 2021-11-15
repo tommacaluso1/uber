@@ -1,0 +1,39 @@
+
+.nav{
+   @apply bg-black text-white  font-bold 
+
+
+}  
+
+.nav-container{
+   @apply inline-grid grid-rows-1 grid-cols-5 gap-x-4
+}
+.nav-title{
+   @apply flex justify-end
+
+}
+
+.nav-left{
+   @apply inline-grid grid-cols-4 gap-x-4
+}
+
+.nav-middle{
+   @apply inline-grid
+}
+.nav-right{
+   @apply inline-grid grid-cols-5 gap-x-4 
+}
+
+.first-article{
+   @apply bg-gray-200 
+
+}
+.first-article-tabs{
+   @apply  border-4 border-gray-300
+}
+
+.first-article-tabs-list{
+   @apply  inline-grid grid-rows-1 grid-cols-3 gap-x-2 
+}
+
+
