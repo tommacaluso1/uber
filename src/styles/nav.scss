@@ -24,9 +24,14 @@
    @apply inline-grid grid-cols-5 gap-x-4 
 }
 
+
+
 .first-article{
    @apply bg-gray-200 
+}
 
+.first-article-box{
+  @apply absolute inset-x-0 top-32 left-32 h-96 bg-white w-96  
 }
 .first-article-tabs{
    @apply  border-4 border-gray-300
@@ -34,6 +39,9 @@
 
 .first-article-tabs-list{
    @apply  inline-grid grid-rows-1 grid-cols-3 gap-x-2 
+}
+.first-article-text-bottom{
+   @apply bg-white w-96
 }
 
 
