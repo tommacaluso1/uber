@@ -9,7 +9,7 @@
    @apply inline-grid grid-rows-1 grid-cols-5 gap-x-4
 }
 .nav-title{
-   @apply flex justify-end
+   @apply flex justify-end text-lg
 
 }
 
@@ -26,22 +26,58 @@
 
 
 
+
+
 .first-article{
    @apply bg-gray-200 
 }
 
 .first-article-box{
-  @apply absolute inset-x-0 top-32 left-32 h-96 bg-white w-96  
+  @apply absolute inset-x-0 top-32 left-32 h-96 bg-white w-96  mx-32
 }
 .first-article-tabs{
-   @apply  border-4 border-gray-300
+   @apply  border-4 border-gray-300 mx-12
 }
 
 .first-article-tabs-list{
-   @apply  inline-grid grid-rows-1 grid-cols-3 gap-x-2 
-}
-.first-article-text-bottom{
-   @apply bg-white w-96
+   @apply  inline-grid grid-rows-1 grid-cols-3 gap-x-2 font-bold space-x-6
 }
 
+.first-article-text{
+   @apply space-y-6 mx-12
+}
+
+.first-article-text-top{
+   @apply space-y-6
+}
+
+.first-article-text-top-title{
+   @apply text-5xl font-medium
+}
+
+.first-article-text-bottom{
+   @apply bg-white w-96 
+}
+
+.first-article-text-bottom-button{
+   @apply bg-black text-white font-medium h-12 w-1/3 text-center    
+}
+
+.first-article-text-bottom-text{
+   @apply underline
+}
+
+
+
+.second-article{
+   @apply mx-32
+}
+
+.second-article-tittle{
+   @apply text-4xl font-medium
+}
+
+.second-article-button{
+   @apply bg-black text-white font-medium h-12 w-1/4 text-center
+}
 
