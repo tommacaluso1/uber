@@ -35,14 +35,20 @@
    @apply bg-gray-200 
 }
 
-.first-article-box{
-  @apply absolute inset-x-0 top-40 left-64 h-96 bg-white w-96  mx-32
+.first-article-background{
+   @apply z-0 relative
 }
-
 
 .first-article-square{
    @apply h-96 w-96
 }
+
+.first-article-box{
+  @apply absolute top-40 left-64 h-96 bg-white   mx-32
+}
+
+
+
 .first-article-tabs{
    @apply p-2 mx-12 border-b-2
 }
@@ -184,7 +190,7 @@
 
 
 .footer-block{
-   @apply pl-72 pt-24 bg-black text-white inline-grid grid-rows-4 grid-cols-1 w-screen
+   @apply px-72 pt-24 bg-black text-white inline-grid grid-rows-4 grid-cols-1 w-screen
 }
 
 
